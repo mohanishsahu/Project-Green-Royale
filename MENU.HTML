@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green-Royale MENU</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="MENU.css" />
+</head>
+<body>
+  <header>
+    <h1>Green-Royale</h1>
+    <p class="subtitle">Purely Vegetarian | Premium & Classy</p>
+  </header>
+
+  <!-- Menu Sections -->
+  <main>
+    <!-- STARTERS -->
+    <section class="menu-section">
+      <h2>Starters</h2>
+      <div class="dish-slider">
+        <div class="dish-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="img-placeholder"><img src="https://images.archanaskitchen.com/images/recipes/world-recipes/continental-party-appetizer-starter-recipes/Corn_cheese_balls_3fb43f099d.jpg" alt=""></div>
+              <h3>Cheesy Corn Balls</h3>
+              <p class="price">₹180</p>
+              <button onclick="addToCart('Cheesy Corn Balls', 180)">Add to Cart</button>
+            </div>
+            <div class="card-back">
+              Crispy golden bites filled with cheese and sweet corn. Served with spicy mayo.
+            </div>
+          </div>
+        </div>
+
+        <div class="dish-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMe8NRDNujsBstrK8GUNBRDnGLRnAjs9MPMA&s" alt="PaneerTikka"></div>
+              <h3>Paneer Tikka</h3>
+              <p class="price">₹220</p>
+              <button onclick="addToCart('Paneer Tikka', 220)">Add to Cart</button>
+            </div>
+            <div class="card-back">
+              Smoky grilled paneer cubes marinated in rich spices.
+            </div>
+          </div>
+        </div>
+
+        <div class="dish-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIjLvoAa-zUExgAmdznHl2QTwEiwYA13EH1w&s" alt="Hara Bhara Kebab"></div>
+              <h3>Hara Bhara Kebab</h3>
+              <p class="price">₹160</p>
+              <button onclick="addToCart('Hara Bhara Kebab', 160)">Add to Cart</button>
+            </div>
+            <div class="card-back">
+              Green, healthy and delicious — made from spinach, peas, and potato.
+            </div>
+          </div>
+        </div>
+
+        <div class="dish-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="img-placeholder"><img src="https://herbsandflour.com/wp-content/uploads/2023/10/Crispy-Vegetable-Spring-Rolls-Recipe.jpg" alt="Veg Spring Rolls"></div>
+              <h3>Veg Spring Rolls</h3>
+              <p class="price">₹150</p>
+              <button onclick="addToCart('Veg Spring Rolls', 150)">Add to Cart</button>
+            </div>
+            <div class="card-back">
+              Crispy outer, veggie-packed inner. Served with sweet chili sauce.
+            </div>
+          </div>
+        </div>
+
+        <div class="dish-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXthKZrKjxoGwVrwn2CZsEPVPDwyEf2L0s3Q&s" alt="Stuffed Mushrooms"></div>
+              <h3>Stuffed Mushrooms</h3>
+              <p class="price">₹200</p>
+              <button onclick="addToCart('Stuffed Mushrooms', 200)">Add to Cart</button>
+            </div>
+            <div class="card-back">
+              Juicy mushrooms filled with cheese and herbs. Baked till golden.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN COURSES -->
+    <section class="menu-section">
+      <h2>Main Courses</h2>
+      <div class="dish-slider">
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/paneer-butter-masala-recipe.jpg" alt="Paneer Butter Masala"></div><h3>Paneer Butter Masala</h3><p class="price">₹250</p><button onclick="addToCart('Paneer Butter Masala', 250)">Add to Cart</button></div><div class="card-back">Creamy tomato-based gravy with soft paneer cubes.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://jeyporedukaan.in/wp-content/uploads/2022/09/images-10.jpeg" alt="Kadai Veg"></div><h3>Kadai Veg</h3><p class="price">₹220</p><button onclick="addToCart('Kadai Veg', 220)">Add to Cart</button></div><div class="card-back">Mixed vegetables sautéed in aromatic kadai masala.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_C3b07dKz-rZUJOonf5cOv4dRHpP9nKZTMQ&s" alt="Methi Malai Mutter"></div><h3>Methi Malai Mutter</h3><p class="price">₹240</p><button onclick="addToCart('Methi Malai Mutter', 240)">Add to Cart</button></div><div class="card-back">Creamy delight of fenugreek and peas.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2022/05/veg-kolhapuri-recipe-2.jpg" alt="Veg Kolhapuri"></div><h3>Veg Kolhapuri</h3><p class="price">₹230</p><button onclick="addToCart('Veg Kolhapuri', 230)">Add to Cart</button></div><div class="card-back">Spicy and flavorful Maharashtrian veg curry.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://www.carveyourcraving.com/wp-content/uploads/2021/09/Sofyt-creamy-Malai-Kofta-recipe.jpg" alt="Malai Kofta"></div><h3>Malai Kofta</h3><p class="price">₹260</p><button onclick="addToCart('Malai Kofta', 260)">Add to Cart</button></div><div class="card-back">Soft koftas in a rich, creamy cashew curry.</div></div></div>
+      </div>
+    </section>
+
+    <!-- ROYAL THALIS & COMBOS -->
+    <section class="menu-section">
+      <h2>Royal Thalis & Combos</h2>
+      <div class="dish-slider">
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://rakskitchen.net/wp-content/uploads/2013/05/8774567383_59ec773f43_z.jpg" alt="Royal North Thali"></div><h3>Royal North Thali</h3><p class="price">₹360</p><button onclick="addToCart('Royal North Thali', 360)">Add to Cart</button></div><div class="card-back">Includes dal, sabzi, roti, rice, dessert and more.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://img.freepik.com/premium-photo/north-indian-mini-meal-parcel-platter-combo-thali-with-paneer-butter-masala-roti-dal-rice_466689-87335.jpg" alt="Mini Combo"></div><h3>Mini Combo</h3><p class="price">₹200</p><button onclick="addToCart('Mini Combo', 200)">Add to Cart</button></div><div class="card-back">A quick meal with paneer, pulao, salad and roti.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGkvfMzpdLcrmFYBT_lJqy63QambM5faIw-g&s" alt="Punjabi Feast Thali"></div><h3>Punjabi Feast Thali</h3><p class="price">₹390</p><button onclick="addToCart('Punjabi Feast Thali', 390)">Add to Cart</button></div><div class="card-back">Hearty Punjabi meal with lassi & sweets.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzLR_-H8XoMf7LzUif9jLRLs0bI3Hfs1eXuA&s" alt="Combo Delight"></div><h3>Combo Delight</h3><p class="price">₹280</p><button onclick="addToCart('Combo Delight', 280)">Add to Cart</button></div><div class="card-back">A curated mix of curry, bread and rice.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7tGFcGIf9Wi7WOc1g7YxN6EYkvrMCPzomw&s" alt="Rajasthani Royal"></div><h3>Rajasthani Royal</h3><p class="price">₹400</p><button onclick="addToCart('Rajasthani Royal', 400)">Add to Cart</button></div><div class="card-back">Dal bati churma, gatte ki sabzi and more.</div></div></div>
+      </div>
+    </section>
+
+    <!-- RICE & BIRYANI -->
+    <section class="menu-section">
+      <h2>Rice & Biryani</h2>
+      <div class="dish-slider">
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTio4cqcUN5N4911boRL5hIIopokXPwjz9zMA&s" alt="Veg Biryani"></div><h3>Veg Biryani</h3><p class="price">₹210</p><button onclick="addToCart('Veg Biryani', 210)">Add to Cart</button></div><div class="card-back">Fragrant basmati rice with spiced vegetables.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://www.spiceupthecurry.com/wp-content/uploads/2022/11/jeera-rice-2.jpg" alt="Jeera Rice"></div><h3>Jeera Rice</h3><p class="price">₹130</p><button onclick="addToCart('Jeera Rice', 130)">Add to Cart</button></div><div class="card-back">Simple and aromatic cumin-infused rice.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjXADPKMzxXdVJgzGz4KuUpQMLGL1v8w0VmA&s" alt="Paneer Pulao"></div><h3>Paneer Pulao</h3><p class="price">₹200</p><button onclick="addToCart('Paneer Pulao', 200)">Add to Cart</button></div><div class="card-back">Mildly spiced rice with soft paneer cubes.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2018/08/puliyogare-recipe-500x500.jpg" alt="Tamarind Rice"></div><h3>Tamarind Rice</h3><p class="price">₹160</p><button onclick="addToCart('Tamarind Rice', 160)">Add to Cart</button></div><div class="card-back">South Indian classic with tangy tamarind flavor.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3OcaNYXUcV1dOYIPfZ5mWH_bGI7n_JAyDg&s" alt="Kashmiri Pulao"></div><h3>Kashmiri Pulao</h3><p class="price">₹230</p><button onclick="addToCart('Kashmiri Pulao', 230)">Add to Cart</button></div><div class="card-back">Sweet, fragrant rice with nuts and fruits.</div></div></div>
+      </div>
+    </section>
+
+    <!-- BREADS -->
+    <section class="menu-section">
+      <h2>Breads</h2>
+      <div class="dish-slider">
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLv-Dclr8ZMc36DOJD9cNgQ_6wotA3rXX-3A&s" alt="Butter Naan"></div><h3>Butter Naan</h3><p class="price">₹50</p><button onclick="addToCart('Butter Naan', 50)">Add to Cart</button></div><div class="card-back">Soft leavened bread brushed with butter.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSry48Pawaf6VfhisoB_mp_m8CnQJFIHJi2UQ&s" alt="Garlic Naan"></div><h3>Garlic Naan</h3><p class="price">₹60</p><button onclick="addToCart('Garlic Naan', 60)">Add to Cart</button></div><div class="card-back">Naan topped with minced garlic and coriander.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8NlMHNp5DKwseX404D8-IeFpp1eUnBPpYAA&s" alt="Tandoori Roti"></div><h3>Tandoori Roti</h3><p class="price">₹30</p><button onclick="addToCart('Tandoori Roti', 30)">Add to Cart</button></div><div class="card-back">Whole wheat bread cooked in tandoor.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPiea3FsYMb_pQHQrJ_arryrsYQF5_ituEjg&s" alt="Lachha Paratha"></div><h3>Lachha Paratha</h3><p class="price">₹40</p><button onclick="addToCart('Lachha Paratha', 40)">Add to Cart</button></div><div class="card-back">Flaky, multi-layered North Indian bread.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gQzSz0SOOy9h_QO3LgkBPMcFqss-t7iufA&s" alt="Missi Roti"></div><h3>Missi Roti</h3><p class="price">₹35</p><button onclick="addToCart('Missi Roti', 35)">Add to Cart</button></div><div class="card-back">Spiced gram flour roti. Healthy and filling.</div></div></div>
+      </div>
+    </section>
+
+    <!-- DESSERTS -->
+    <section class="menu-section desserts">
+      <h2>Desserts</h2>
+      <div class="dish-slider">
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1cZwSf96qI_Jjcolvs20BiGvh_YjSXGc1kQ&s" alt="Gulab Jamun"></div><h3>Gulab Jamun</h3><p class="price">₹90</p><button onclick="addToCart('Gulab Jamun', 90)">Add to Cart</button></div><div class="card-back">Soft milk balls soaked in sugar syrup.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWlgi1NWv2PU2y5piogu1pFF5wrFrXDSta9A&s" alt="Rasgulla"></div><h3>Rasgulla</h3><p class="price">₹85</p><button onclick="addToCart('Rasgulla', 85)">Add toCart</button></div><div class="card-back">Spongy balls in sweet syrup. Light & juicy.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://www.whiskaffair.com/wp-content/uploads/2019/03/Moong-Dal-Halwa-2-3.jpg" alt="Moong Dal Halwa"></div><h3>Moong Dal Halwa</h3><p class="price">₹120</p><button onclick="addToCart('Moong Dal Halwa', 120)">Add to Cart</button></div><div class="card-back">Rich, aromatic halwa with ghee and saffron.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://static.toiimg.com/thumb/84786580.cms?imgsize=157368&width=509&height=340" alt="Kulfi"></div><h3>Kulfi</h3><p class="price">₹100</p><button onclick="addToCart('Kulfi', 100)">Add to Cart</button></div><div class="card-back">Traditional Indian ice cream with cardamom.</div></div></div>
+        <div class="dish-card"><div class="card-inner"><div class="card-front"><div class="img-placeholder"><img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/30/74/06/picEKik1B.jpg" alt="Fruit Cream"></div><h3>Fruit Cream</h3><p class="price">₹110</p><button onclick="addToCart('Fruit Cream', 110)">Add to Cart</button></div><div class="card-back">Mixed fruits in sweet whipped cream.</div></div></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart -->
+  <aside id="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+    <div id="cart-total">Total: ₹0</div>
+    <a href="payment.html">
+  <button id="checkout-btn">Checkout</button>
+</a>
+
+  </aside>
+
+
+
+  <footer>
+    &copy; 2025 Green-Royale. All rights reserved.
+  </footer>
+
+  <script src="MENU.js"></script>
+</body>
+</html>
